@@ -127,7 +127,7 @@
 	   			applyOperation(value)
 	   		} else if(numbers.includes(value)) {
 	   			appendNumber(value)
-	   		} else console.log(`Not Found: ${value}`);
+	   		} else return;
 	    }
 
 		//append no
