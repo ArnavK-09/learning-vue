@@ -1,6 +1,6 @@
 <template>
-	<nav class="w-full bg-gradient-to-r from-green-800 to-green-500 px-2 py-2 text-white text-2xl flex">
-		<div v-for="link in links" :key="link" class="overflow-x-scroll">
+	<nav class="overflow-x-scroll w-full bg-gradient-to-r from-green-800 to-green-500 px-2 py-2 text-white text-2xl flex">
+		<div v-for="link in links" :key="link">
 			<router-link :to="link.path" class="mx-5">{{ link.name }}</router-link>
 		</div>
 		<div class="absolute right-10">
