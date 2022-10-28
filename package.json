@@ -1,6 +1,6 @@
 {
-  "name": "tut-final",
-  "version": "0.1.0",
+  "name": "Vue-Learning",
+  "version": "1.2.3",
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
